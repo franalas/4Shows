@@ -25,4 +25,12 @@ public class User implements UserInterface {
     public void setPassword(String p) {
         password = p;
     }
+
+    public void setLocation(Location location) {
+        this.location = location;
+    }
+
+    public Location getLocation() {
+        return location;
+    }
 }
